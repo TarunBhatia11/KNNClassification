@@ -37,7 +37,16 @@ pip install numpy pandas scikit-learn matplotlib
 3. Run the notebook cells sequentially to preprocess the data, train the model, and evaluate its performance.
 
 ## Model Evaluation
-The KNN classifier was evaluated using accuracy as the performance metric. The model achieved an accuracy of **66%**, indicating its effectiveness in classifying the given dataset. The accuracy can be improved by fine-tuning hyperparameters such as the number of neighbors (`k`) and distance metrics.
+The KNN classifier was evaluated using accuracy as the performance metric. The model achieved an accuracy of **63%**, indicating its effectiveness in classifying the given dataset. The accuracy can be improved by fine-tuning hyperparameters such as the number of neighbors (`k`) and distance metrics.
+
+precision    recall  f1-score   support
+
+           0       0.35      0.21      0.26       144
+           1       0.70      0.82      0.75       317
+
+    accuracy                           0.63       461
+   macro avg       0.52      0.52      0.51       461
+weighted avg       0.59      0.63      0.60       461
 
 ![knn](https://github.com/user-attachments/assets/98537895-7344-42d8-b448-6d8f66488edf)
 
