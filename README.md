@@ -28,8 +28,7 @@ pip install numpy pandas scikit-learn matplotlib
 ## Usage
 1. Clone this repository:
    ```sh
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone <https://github.com/TarunBhatia11/KNNClassification/tree/main>
    ```
 2. Open the Jupyter Notebook:
    ```sh
@@ -40,9 +39,12 @@ pip install numpy pandas scikit-learn matplotlib
 ## Model Evaluation
 The KNN classifier was evaluated using accuracy as the performance metric. The model achieved an accuracy of **66%**, indicating its effectiveness in classifying the given dataset. The accuracy can be improved by fine-tuning hyperparameters such as the number of neighbors (`k`) and distance metrics.
 
+![knn](https://github.com/user-attachments/assets/98537895-7344-42d8-b448-6d8f66488edf)
+
+
 ## Conclusion
 This project demonstrates the implementation of the K-Nearest Neighbors algorithm for classification tasks. It serves as a foundational model that can be improved with further optimization and hyperparameter tuning.
 
 ## Author
-Your Name (Replace with your details)
+Tarun Bhatia 
 
